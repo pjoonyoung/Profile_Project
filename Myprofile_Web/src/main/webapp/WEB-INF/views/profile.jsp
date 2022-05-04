@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>## JoonYoung Profile</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/span.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/table.css">
@@ -25,9 +25,9 @@
 						<table border="0" cellspacing="0" cellpadding="10">
 							<tr>
 								<td class="td-type02">
-									╬хЁГго╪╪©Д ╧заь©╣ют╢о╢ы.<br>
-									╨╦╫ц╟М ╟Х╫е фДюлаЖ╢б Spring Boot FrameWorkю╦╥н ╟Ё╧ъ╣г╬З╫ю╢о╢ы.<br>
-									ю╔ ╬Нгц╦╝диюл╪г ╟Ё╧ъ ╟Э╥цго©╘ ╠ц╠щго╫е а║ю╨ <a href="question">question</a>ю╦╥н ╧╝юг ╨не╧╣Е╦Ё╢о╢ы.
+									Л∙┬К┘∙М∙≤Л└╦Л ■ К╟∙Л╓─Л≤│Л·┘К▀┬К▀╓.<br>
+									КЁ╢ЙЁ═ЙЁ└Л▀═ М▌≤Л²╢Л╖─К┼■ Spring BootК║° Й╟°К╟°К░≤Л≈┬Л┼╣К▀┬К▀╓.<br>
+									Й╤│Й╦┬М∙≤Л▀═ Л═░Л²─ <a href="question">question</a>Л°╪К║° К╛╦Л²≤ К╤─М┐│К⌠°К╕╫К▀┬К▀╓.
 								</td>
 							</tr>
 						</table>

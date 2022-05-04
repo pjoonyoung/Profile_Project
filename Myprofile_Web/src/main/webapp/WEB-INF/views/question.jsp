@@ -7,6 +7,7 @@
 <title>## JoonYoung Profile</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/span.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/table.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/board.js" charset="UTF-8"></script>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -23,19 +24,27 @@
 				<tr>
 					<td height="500" bgcolor="#D5D5D5" align="center">
 						<table border="0" cellspacing="0" cellpadding="10">
-							<form action="loginOk" method="post">
+							<form action="writer" method="post" name="reg_frm">
 								<tr>
-									<td class="td-type01">MEMBER ID</td>
-									<td><input id="input01" type="text" name="id"></td>
+									<td class="td-type01">ID</td>
+									<td><input id="input01" type="text" name="qid" value="GUEST" readonly="readonly"></td>
 								</tr>
 								<tr>
-									<td class="td-type01">PASSWORD</td>
-									<td><input id="input01" type="password" name="pw"></td>
+									<td class="td-type01">NAME</td>
+									<td><input id="input01" type="text" name="qname"></td>
+								</tr>
+								<tr>
+									<td class="td-type01">QUESTION</td>
+									<td><textarea id="input01" name="qcontent" rows="5" cols="26"></textarea></td>
+								</tr>
+								<tr>
+									<td class="td-type01">E-MAIL</td>
+									<td><input id="input01" type="text" name="qemail"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
-									<input id="button01" type="submit" value="로그인">&nbsp;&nbsp;
-									<input id="button01" type="button" value="회원가입" onclick="javascript:window.location='join'">
+									<input id="button01" type="button" value="글쓰기" onclick="boardConfirm()">
+									<input id="button01" type="button" value="글목록" onclick="javascript:window.location='login'">
 									</td>
 								</tr>
 							</form>

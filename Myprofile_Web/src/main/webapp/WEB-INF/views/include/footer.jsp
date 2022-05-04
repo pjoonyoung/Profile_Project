@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>footer</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/table.css">
 </head>
@@ -13,7 +13,7 @@
 			<td height="100" bgcolor="#FFFFFF" >&nbsp;</td>
 		</tr>
 		<tr>
-			<td height="25" align="center">Copyright ⓒ JoonYoung. All rights reserved.</td>
+			<td height="25" align="center">Copyright �뱬 JoonYoung. All rights reserved.</td>
 		</tr>
 		<tr>
 			<td height="25" align="center">This homepage is built with Spring Framework. Made by JoonYoung. E-Mail:<a href="mailto:jypjoon23@gmail.com">jypjoon23@gmail.com</a></td>

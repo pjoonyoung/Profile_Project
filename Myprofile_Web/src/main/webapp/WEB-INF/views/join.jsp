@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>## JoonYoung Profile</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/span.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/table.css">
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/members.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/members.js" charset="UTF-8"></script>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -47,8 +47,8 @@
 								</tr>
 								<tr>
 									<td colspan="2">
-									<input id="button01" type="button" value="È¸¿ø°¡ÀÔ" onclick="infoConfirm()">&nbsp;&nbsp;&nbsp;&nbsp;
-									<input id="button01" type="button" value="·Î±×ÀÎ" onclick="javascript:window.location='login'">
+									<input id="button01" type="button" value="íšŒì›ê°€ìž…" onclick="infoConfirm()">&nbsp;&nbsp;
+									<input id="button01" type="button" value="ë¡œê·¸ì¸" onclick="javascript:window.location='login'">
 									</td>
 								</tr>
 							</form>

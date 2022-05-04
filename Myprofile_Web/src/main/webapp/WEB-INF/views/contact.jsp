@@ -23,22 +23,13 @@
 				<tr>
 					<td height="500" bgcolor="#D5D5D5" align="center">
 						<table border="0" cellspacing="0" cellpadding="10">
-							<form action="loginOk" method="post">
-								<tr>
-									<td class="td-type01">MEMBER ID</td>
-									<td><input id="input01" type="text" name="id"></td>
-								</tr>
-								<tr>
-									<td class="td-type01">PASSWORD</td>
-									<td><input id="input01" type="password" name="pw"></td>
-								</tr>
-								<tr>
-									<td colspan="2">
-									<input id="button01" type="submit" value="로그인">&nbsp;&nbsp;
-									<input id="button01" type="button" value="회원가입" onclick="javascript:window.location='join'">
-									</td>
-								</tr>
-							</form>
+							<tr>
+								<td class="td-type02">
+									안녕하세요 박준영입니다.<br>
+									보고계신 페이지는 Spring Boot로 개발되었습니다.<br>
+									웹 서버 백앤드 개발자가 필요하신 분은 <a href="mailto:jypjoon23@gmail.com">jypjoon23@gmail.com</a>으로 문의 부탁드립니다.
+								</td>
+							</tr>
 						</table>
 					</td>
 				</tr>
