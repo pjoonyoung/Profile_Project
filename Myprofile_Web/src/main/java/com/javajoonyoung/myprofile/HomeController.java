@@ -29,11 +29,25 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/login")
 	public String login() {
 		
 		
 		return "login";
+	}
+	
+	@RequestMapping(value = "/join")
+	public String join() {
+		
+		
+		return "join";
+	}
+	
+	@RequestMapping(value = "/profile")
+	public String profile() {
+		
+		
+		return "profile";
 	}
 	
 }
