@@ -1,0 +1,42 @@
+@charset "EUC-KR";
+
+table.t-type01{
+	text-align: center;
+	
+}
+
+table.t-type02{
+	font-size: 16px;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-weight: nomal;
+	background-color: #000000;	
+}
+
+td.td-type01{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: bord;
+}
+
+#input01{
+	font-family: Arial;
+	font-size: 20px;
+	color: #636363;
+	border: 1px solid #c0c0c0;
+	background-color: #FFFFFF;
+	width: 220px;
+	padding: 5px;	
+}
+
+#button01{
+	border: 1px solid #FFFFFF;
+	background-color: #a0a0a0;
+	width: 175px;
+	height: 40px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bord;
+	color: #FFFFFF;
+}
