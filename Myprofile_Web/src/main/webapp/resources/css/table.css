@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
-table.t-type01{
+table.t-type01 {
 	text-align: center;
 	
 }
 
-table.t-type02{
+table.t-type02 {
 	font-size: 16px;
 	font-family: Arial;
 	color: #FFFFFF;
-	font-weight: nomal;
+	font-weight: normal;
 	background-color: #000000;	
 }
 
@@ -17,7 +17,7 @@ td.td-type01{
 	font-size: 20px;
 	color: #FFFFFF;
 	font-family: Arial;
-	font-weight: bord;
+	font-weight: bold;
 }
 
 td.td-type02{
@@ -27,25 +27,58 @@ td.td-type02{
 	font-weight: bold;
 }
 
-#input01{
+td.td-type03{
+	font-size: 20px;
+	color: #f3f3f3;
+	font-family: malgun;
+	font-weight: bold;
+	border-style:solid;
+	border-color:white; 
+	background-color: #525252;
+	text-align:center;
+	border-width: 1px;
+}
+
+td.td-type04{
+	font-size: 18px;
+	color: #5f5f5f;
+	font-family: malgun;
+	font-weight: bold;
+	border-style:solid;
+	border-color:white; 
+	background-color: #e5e5e5;
+	text-align:center;
+	border-width: 1px;
+}
+
+td.memberinfo {
+	font-size: 20px;
+	color: #5f5f5f;
+	font-family: malgun;
+	font-weight: bold;
+	
+}
+
+#input01 {
 	font-family: Arial;
 	font-size: 20px;
 	color: #636363;
-	border: 1px solid #c0c0c0;
+	border:	1px solid #c0c0c0;
 	background-color: #FFFFFF;
 	width: 220px;
-	padding: 5px;	
+	padding: 5px;
 }
 
-#button01{
-	border: 1px solid #FFFFFF;
+#button01 {
+	border: 2px solid #FFFFFF;
 	background-color: #a0a0a0;
 	width: 175px;
 	height: 40px;
-	padding: 5px;
+	padding: 5px;	
 	font-size: 15px;
-	font-weight: bord;
+	font-weight: bold;
 	color: #FFFFFF;
+	
 }
 
 body {
@@ -65,9 +98,10 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
-	color: #C0C0C0;
+	color: #c0c0c0;
 }
 
 #button01:hover {
 	background-color: #666666;
+	
 }
