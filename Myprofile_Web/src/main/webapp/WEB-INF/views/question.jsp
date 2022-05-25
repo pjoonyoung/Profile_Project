@@ -24,7 +24,7 @@
 				<tr>
 					<td height="500" bgcolor="#D5D5D5" align="center">
 						<table border="0" cellspacing="0" cellpadding="10">
-							<form action="writer" method="post" name="reg_frm">
+							<form action="write" name="reg_frm">
 								<tr>
 									<td class="td-type01">ID</td>
 									<td><input id="input01" type="text" name="qid" value="GUEST" readonly="readonly"></td>
